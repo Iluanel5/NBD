@@ -1,1 +1,1 @@
-"# NBD" 
+Zadania z zajęć NBD
