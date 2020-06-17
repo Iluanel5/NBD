@@ -1,0 +1,48 @@
+﻿[
+  {
+    "writers": {
+      "identity": 158,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Stephen McFeely",
+        "born": 1971
+      }
+    },
+    "movie": {
+      "identity": 155,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "First Avenger",
+        "released": 2011
+      }
+    }
+  },
+  {
+    "writers": {
+      "identity": 157,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Christopher Markus",
+        "born": 1967
+      }
+    },
+    "movie": {
+      "identity": 155,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "First Avenger",
+        "released": 2011
+      }
+    }
+  }
+]

@@ -1,0 +1,101 @@
+﻿[
+  {
+    "actors": {
+      "identity": 160,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Samuel L. Jackson ",
+        "born": 1948
+      }
+    },
+    "movie": {
+      "identity": 155,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "First Avenger",
+        "released": 2011
+      }
+    },
+    "directors": {
+      "identity": 156,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Joe Johnston",
+        "born": 1950
+      }
+    }
+  },
+  {
+    "actors": {
+      "identity": 159,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Chris Evans",
+        "born": 1981
+      }
+    },
+    "movie": {
+      "identity": 155,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "First Avenger",
+        "released": 2011
+      }
+    },
+    "directors": {
+      "identity": 156,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Joe Johnston",
+        "born": 1950
+      }
+    }
+  },
+  {
+    "actors": {
+      "identity": 166,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Hugo Weaving",
+        "born": 1960
+      }
+    },
+    "movie": {
+      "identity": 155,
+      "labels": [
+        "Movie"
+      ],
+      "properties": {
+        "title": "Captain America: The First Avenger",
+        "tagline": "First Avenger",
+        "released": 2011
+      }
+    },
+    "directors": {
+      "identity": 156,
+      "labels": [
+        "Person"
+      ],
+      "properties": {
+        "name": "Joe Johnston",
+        "born": 1950
+      }
+    }
+  }
+]

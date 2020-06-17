@@ -1,0 +1,37 @@
+Zapytanie 1: 
+MATCH (movie: Movie) return movie
+
+Zapytanie 2: 
+MATCH (hugo: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies: Movie) RETURN hugo, movies
+
+Zapytanie 3: 
+MATCH (hugo: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies: Movie)<-[:DIRECTED]-(directors) RETURN directors
+
+Zapytanie 4: 
+MATCH (hugo: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movie: Movie)<-[:ACTED_IN]-(actors: Person) RETURN actors
+
+Zapytanie 5: 
+MATCH (:Movie {title: "The Matrix"})<-[:ACTED_IN]-(person: Person)-[:ACTED_IN]->(movie: Movie) RETURN movie, collect(person) as actors
+
+Zapytanie 6: 
+MATCH (person: Person)-[:ACTED_IN]->(movie: Movie) WITH person, count(movie) AS count WHERE count >= 1 RETURN person.name as name, count as movie_count
+
+Zapytanie 7: 
+MATCH (person: Person)-[:WROTE]->(movie: Movie)<-[:DIRECTED]-(person) return person.name as name, Movie.title as movie_title
+
+Zapytanie 8: 
+MATCH (hugo: Person {name: 'Hugo Weaving'})-[:ACTED_IN]->(movie: Movie)<-[:ACTED_IN]-(keanu: Person {name: 'Keanu Reeves'}) RETURN movie.title as movie_title
+
+Zapytanie 9:
+MATCH (hugo: Person {name: 'Hugo Weaving'})
+CREATE (caMovie: Movie {title: 'Captain America: The First Avenger', released: 2011, tagline: 'First Avenger'})
+
+CREATE (:Person {name: 'Joe Johnston', born: 1950})-[:DIRECTED]->(caMovie),
+(:Person {name: 'Christopher Markus', born: 1967})-[:WROTE]->(caMovie),
+(:Person {name: 'Stephen McFeely', born: 1971})-[:WROTE]->(caMovie),
+(:Person {name: 'Chris Evans', born: 1981})-[:ACTED_IN {roles: ['Steve Rogers']}]->(caMovie),
+(:Person {name: 'Samuel L. Jackson ', born: 1948})-[:ACTED_IN {roles: ['Nick Fury']}]->(caMovie),
+(hugo)-[:ACTED_IN {roles: ['Red Skull']}]->(caMovie)
+
+MATCH (directors: Person)-[:DIRECTED]->(movie: Movie {title: 'Captain America: The First Avenger'})<-[:ACTED_IN]-(actors: Person) RETURN actors, movie, directors
+MATCH (movie: Movie {title: 'Captain America: The First Avenger'})<-[:WROTE]-(writers) RETURN writers, movie
