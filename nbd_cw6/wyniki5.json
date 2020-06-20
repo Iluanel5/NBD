@@ -1,0 +1,166 @@
+﻿[
+  {
+    "Airport_Name": "FAT",
+    "Price": 165.75
+  },
+  {
+    "Airport_Name": "FAT",
+    "Price": 165.75
+  },
+  {
+    "Airport_Name": "FAT",
+    "Price": 166.5
+  },
+  {
+    "Airport_Name": "FAT",
+    "Price": 166.5
+  },
+  {
+    "Airport_Name": "FAT",
+    "Price": 166.5
+  },
+  {
+    "Airport_Name": "FAT",
+    "Price": 166.5
+  },
+  {
+    "Airport_Name": "FAT",
+    "Price": 167.25
+  },
+  {
+    "Airport_Name": "FAT",
+    "Price": 168.75
+  },
+  {
+    "Airport_Name": "LAS",
+    "Price": 186.75
+  },
+  {
+    "Airport_Name": "SFO",
+    "Price": 266.25
+  },
+  {
+    "Airport_Name": "SMF",
+    "Price": 294.75
+  },
+  {
+    "Airport_Name": "SMF",
+    "Price": 294.75
+  },
+  {
+    "Airport_Name": "SMF",
+    "Price": 295.5
+  },
+  {
+    "Airport_Name": "SMF",
+    "Price": 296.25
+  },
+  {
+    "Airport_Name": "TUS",
+    "Price": 354
+  },
+  {
+    "Airport_Name": "TUS",
+    "Price": 354
+  },
+  {
+    "Airport_Name": "TUS",
+    "Price": 356.25
+  },
+  {
+    "Airport_Name": "TUS",
+    "Price": 356.25
+  },
+  {
+    "Airport_Name": "SLC",
+    "Price": 464.25
+  },
+  {
+    "Airport_Name": "SLC",
+    "Price": 465
+  },
+  {
+    "Airport_Name": "SLC",
+    "Price": 465
+  },
+  {
+    "Airport_Name": "SLC",
+    "Price": 467.25
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 528
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 528.75
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 528.75
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 528.75
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 529.5
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 529.5
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 530.25
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 532.5
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 532.5
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 533.25
+  },
+  {
+    "Airport_Name": "ABQ",
+    "Price": 537
+  },
+  {
+    "Airport_Name": "IAH",
+    "Price": 1070.25
+  },
+  {
+    "Airport_Name": "ORD",
+    "Price": 1365.75
+  },
+  {
+    "Airport_Name": "ORD",
+    "Price": 1368
+  },
+  {
+    "Airport_Name": "EWR",
+    "Price": 1905
+  },
+  {
+    "Airport_Name": "EWR",
+    "Price": 1907.25
+  },
+  {
+    "Airport_Name": "EWR",
+    "Price": 1923
+  },
+  {
+    "Airport_Name": "HNL",
+    "Price": 1986.75
+  },
+  {
+    "Airport_Name": "BOS",
+    "Price": 2025
+  }
+]

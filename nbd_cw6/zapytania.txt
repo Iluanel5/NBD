@@ -1,0 +1,56 @@
+Zapytanie 1:
+MATCH (Town: town { name: 'Darjeeling' }), (Peak: peak { name: 'Sandakphu' }), paths = allShortestPaths((Town)-[*]-(Peak)) RETURN paths
+
+Zapytanie 2:
+MATCH (Town: town { name: 'Darjeeling' }),(Peak: peak { name: 'Sandakphu' }), paths = allShortestPaths((Town)-[*]-(Peak))
+WHERE ALL (PathAvailability IN relationships(paths) WHERE PathAvailability.winter = "true")
+RETURN paths
+
+Zapytanie 3:
+a) 
+MATCH (Town: town { name: 'Darjeeling' })-[r*..10]-(Peak: peak { name: 'Sandakphu' }) UNWIND r as r1
+RETURN r1.name as name, COLLECT(DISTINCT r1.distance) AS distance ORDER BY distance
+b) Brak wyników dla 'twowheeler':
+MATCH (Town: town { name: 'Darjeeling' })-[:twowheeler*{ summer: 'true' }]-(Peak: peak) return DISTINCT(Peak.name) as destination
+MATCH (Town: town { name: 'Darjeeling' })-[:twowheeler*{ summer: 'true' }]-(Town2: town) return DISTINCT(Town2.name) as destination
+MATCH (Town: town { name: 'Darjeeling' })-[:twowheeler*{ summer: 'true' }]-(Village: village) return DISTINCT(Village.name) as destination
+
+Zapytanie 4:
+MATCH (Airport)<-[:ORIGIN]-(Flight) Return Airport.name as airport, count(Flight) as flights ORDER BY flights desc
+
+Zapytanie 5:
+MATCH (airport1: Airport)<-[:ORIGIN]-(flight: Flight)-[:DESTINATION]->(airport2: Airport), (flight)<-[:ASSIGN]-(ticket: Ticket) WITH airport1, airport2, flight, min(ticket.price) as min
+MATCH (flight)<-[:ASSIGN]-(ticket: Ticket {price: min}) WITH airport1, airport2, flight, ticket
+CREATE (airport1)-[cheapest: CHEAPEST_FLIGHT {duration: flight.duration, distance: flight.distance, airline: flight.airline, price: ticket.price, class:ticket.class, date: flight.date}]->(airport2)
+RETURN cheapest;
+MATCH (lax: Airport { name:'LAX' })-[cheapest: CHEAPEST_FLIGHT]-(airport: Airport) WHERE cheapest.price < 3000 RETURN airport.name AS Airport_Name, cheapest.price As Price ORDER BY cheapest.price
+
+Zapytanie 6:
+MATCH (lax: Airport { name: 'LAX' }), (day: Airport { name: 'DAY' }) WITH day, lax MATCH path = allShortestPaths((lax)-[cheapest: CHEAPEST_FLIGHT*]-(day)) RETURN path
+
+Zapytanie 7:
+MATCH (lax: Airport { name: 'LAX' }), (day: Airport { name: 'DAY' }) WITH day, lax MATCH path = ShortestPath((lax)-[cheapest: CHEAPEST_FLIGHT*]-(day)) UNWIND cheapest as flights RETURN min(flights.price) as Cheapest_Flight
+
+Zapytanie 8:
+MATCH (airport1: Airport)<-[:ORIGIN]-(flight: Flight)-[:DESTINATION]->(airport2: Airport), (flight)<-[:ASSIGN]-(ticket: Ticket {class: 'business'}) WITH airport1, airport2, flight, min(ticket.price) as min
+MATCH (flight)<-[:ASSIGN]-(ticket:Ticket {price: min}) WITH airport1, airport2, flight, ticket
+CREATE (airport1)-[cheapestBusiness: CHEAPEST_FLIGHT_BUSINESS {duration: flight.duration, distance: flight.distance, airline: flight.airline, price: ticket.price, class:ticket.class, date: flight.date}]->(airport2)
+RETURN cheapestBusiness;
+MATCH (lax: Airport { name: 'LAX' }), (day: Airport { name: 'DAY' }) WITH day, lax MATCH path = ShortestPath((lax)-[cheapest: CHEAPEST_FLIGHT_BUSINESS*]-(day)) UNWIND cheapest as flights RETURN flights AS Cheapest_Flight ORDER BY flights.price
+
+Zapytanie 9:
+MATCH (airport1: Airport)<-[:ORIGIN]-(flight: Flight)-[:DESTINATION]->(airport2: Airport) WITH flight.airline as airline, airport1.name as origin, airport2.name as destination, count(flight.airline) as cost RETURN origin, airline, destination, cost ORDER BY cost DESC
+
+Zapytanie 10:
+MATCH (airport1:Airport)-[cheapestFlight1:CHEAPEST_FLIGHT]-(airport2:Airport)-[cheapestFlight2:CHEAPEST_FLIGHT]-(airport3:Airport) WHERE NOT airport1.name IN airport3.name RETURN airport1.name as Port1, airport2.name as Port2, airport3.name as Port3, (cheapestFlight1.price + cheapestFlight2.price) as minVal ORDER BY minVal
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+﻿[
+  {
+    "Cheapest_Flight": {
+      "identity": 2167,
+      "start": 18,
+      "end": 17,
+      "type": "CHEAPEST_FLIGHT_BUSINESS",
+      "properties": {
+        "duration": 57,
+        "date": "11/30/2015 21:43:26",
+        "distance": 334,
+        "airline": "19977",
+        "class": "business",
+        "price": 353
+      }
+    }
+  },
+  {
+    "Cheapest_Flight": {
+      "identity": 2410,
+      "start": 18,
+      "end": 80,
+      "type": "CHEAPEST_FLIGHT_BUSINESS",
+      "properties": {
+        "duration": 70,
+        "date": "11/23/2015 09:37:48",
+        "distance": 574,
+        "airline": "20304",
+        "class": "business",
+        "price": 597
+      }
+    }
+  },
+  {
+    "Cheapest_Flight": {
+      "identity": 2175,
+      "start": 17,
+      "end": 15,
+      "type": "CHEAPEST_FLIGHT_BUSINESS",
+      "properties": {
+        "duration": 233,
+        "date": "11/30/2015 23:33:29",
+        "distance": 1744,
+        "airline": "19977",
+        "class": "business",
+        "price": 1821
+      }
+    }
+  }
+]

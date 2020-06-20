@@ -1,0 +1,938 @@
+﻿[
+  {
+    "origin": "DTW",
+    "airline": "20304",
+    "destination": "AZO",
+    "cost": 25
+  },
+  {
+    "origin": "AZO",
+    "airline": "20304",
+    "destination": "DTW",
+    "cost": 13
+  },
+  {
+    "origin": "BNA",
+    "airline": "20304",
+    "destination": "ORD",
+    "cost": 9
+  },
+  {
+    "origin": "IAH",
+    "airline": "20304",
+    "destination": "CRP",
+    "cost": 9
+  },
+  {
+    "origin": "MOT",
+    "airline": "20304",
+    "destination": "MSP",
+    "cost": 8
+  },
+  {
+    "origin": "LAX",
+    "airline": "20304",
+    "destination": "ABQ",
+    "cost": 7
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 5
+  },
+  {
+    "origin": "FSD",
+    "airline": "20304",
+    "destination": "MSP",
+    "cost": 5
+  },
+  {
+    "origin": "ORD",
+    "airline": "20304",
+    "destination": "GRR",
+    "cost": 5
+  },
+  {
+    "origin": "MSP",
+    "airline": "20304",
+    "destination": "DAY",
+    "cost": 5
+  },
+  {
+    "origin": "BHM",
+    "airline": "20304",
+    "destination": "IAH",
+    "cost": 4
+  },
+  {
+    "origin": "ABQ",
+    "airline": "20304",
+    "destination": "LAX",
+    "cost": 4
+  },
+  {
+    "origin": "SLC",
+    "airline": "20304",
+    "destination": "LAX",
+    "cost": 4
+  },
+  {
+    "origin": "FAT",
+    "airline": "20304",
+    "destination": "LAX",
+    "cost": 4
+  },
+  {
+    "origin": "CVG",
+    "airline": "20304",
+    "destination": "ORD",
+    "cost": 4
+  },
+  {
+    "origin": "DLH",
+    "airline": "20304",
+    "destination": "MSP",
+    "cost": 4
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 4
+  },
+  {
+    "origin": "LAX",
+    "airline": "20304",
+    "destination": "SMF",
+    "cost": 4
+  },
+  {
+    "origin": "LAX",
+    "airline": "20304",
+    "destination": "FAT",
+    "cost": 4
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "EWR",
+    "cost": 3
+  },
+  {
+    "origin": "MSP",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 3
+  },
+  {
+    "origin": "EWR",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 3
+  },
+  {
+    "origin": "IAD",
+    "airline": "19977",
+    "destination": "SAN",
+    "cost": 3
+  },
+  {
+    "origin": "SBN",
+    "airline": "20304",
+    "destination": "ATL",
+    "cost": 3
+  },
+  {
+    "origin": "BNA",
+    "airline": "20304",
+    "destination": "DTW",
+    "cost": 3
+  },
+  {
+    "origin": "ORD",
+    "airline": "20304",
+    "destination": "OMA",
+    "cost": 3
+  },
+  {
+    "origin": "LAX",
+    "airline": "19977",
+    "destination": "EWR",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 2
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "MCO",
+    "cost": 2
+  },
+  {
+    "origin": "IAD",
+    "airline": "19977",
+    "destination": "MCO",
+    "cost": 2
+  },
+  {
+    "origin": "TUS",
+    "airline": "20304",
+    "destination": "LAX",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "LAX",
+    "cost": 2
+  },
+  {
+    "origin": "MCO",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 2
+  },
+  {
+    "origin": "IAD",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 2
+  },
+  {
+    "origin": "CMH",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 2
+  },
+  {
+    "origin": "DFW",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 2
+  },
+  {
+    "origin": "HNL",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 2
+  },
+  {
+    "origin": "PDX",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 2
+  },
+  {
+    "origin": "BOS",
+    "airline": "19977",
+    "destination": "IAD",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "SMF",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "BOS",
+    "cost": 2
+  },
+  {
+    "origin": "SJC",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 2
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "LAS",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "LGA",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "MIA",
+    "cost": 2
+  },
+  {
+    "origin": "LAX",
+    "airline": "20304",
+    "destination": "TUS",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "TPA",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "20304",
+    "destination": "PIT",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "PIT",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "AUS",
+    "cost": 2
+  },
+  {
+    "origin": "ORD",
+    "airline": "20304",
+    "destination": "FAR",
+    "cost": 2
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "SEA",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "SEA",
+    "cost": 1
+  },
+  {
+    "origin": "PHX",
+    "airline": "20304",
+    "destination": "SEA",
+    "cost": 1
+  },
+  {
+    "origin": "MCO",
+    "airline": "19977",
+    "destination": "EWR",
+    "cost": 1
+  },
+  {
+    "origin": "HNL",
+    "airline": "19977",
+    "destination": "EWR",
+    "cost": 1
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "EWR",
+    "cost": 1
+  },
+  {
+    "origin": "FLL",
+    "airline": "19977",
+    "destination": "EWR",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "EWR",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "EWR",
+    "cost": 1
+  },
+  {
+    "origin": "PBI",
+    "airline": "20304",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "LAX",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "SLC",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "EWR",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "SNA",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "IAD",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "HNL",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "BOS",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "SAT",
+    "airline": "19977",
+    "destination": "IAH",
+    "cost": 1
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "MCO",
+    "cost": 1
+  },
+  {
+    "origin": "EWR",
+    "airline": "19977",
+    "destination": "LAX",
+    "cost": 1
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "LAX",
+    "cost": 1
+  },
+  {
+    "origin": "HNL",
+    "airline": "19977",
+    "destination": "LAX",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "FLL",
+    "cost": 1
+  },
+  {
+    "origin": "LGA",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "RIC",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "DCA",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "PDX",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "IND",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "CLT",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "ROC",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "ATL",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "SAN",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "SEA",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "EWR",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "MSN",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "PHX",
+    "airline": "19977",
+    "destination": "ORD",
+    "cost": 1
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "PDX",
+    "cost": 1
+  },
+  {
+    "origin": "IAD",
+    "airline": "19977",
+    "destination": "PDX",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "PDX",
+    "cost": 1
+  },
+  {
+    "origin": "MCI",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 1
+  },
+  {
+    "origin": "BOS",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 1
+  },
+  {
+    "origin": "KOA",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 1
+  },
+  {
+    "origin": "IAD",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 1
+  },
+  {
+    "origin": "DFW",
+    "airline": "20304",
+    "destination": "SFO",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 1
+  },
+  {
+    "origin": "SNA",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 1
+  },
+  {
+    "origin": "SAN",
+    "airline": "19977",
+    "destination": "SFO",
+    "cost": 1
+  },
+  {
+    "origin": "PDX",
+    "airline": "19977",
+    "destination": "IAD",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "IAD",
+    "cost": 1
+  },
+  {
+    "origin": "SAN",
+    "airline": "19977",
+    "destination": "IAD",
+    "cost": 1
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "IAD",
+    "cost": 1
+  },
+  {
+    "origin": "LAS",
+    "airline": "19977",
+    "destination": "IAD",
+    "cost": 1
+  },
+  {
+    "origin": "LAX",
+    "airline": "19977",
+    "destination": "BOS",
+    "cost": 1
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "BOS",
+    "cost": 1
+  },
+  {
+    "origin": "SMF",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "BIL",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "MSP",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "DFW",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "SAN",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "LGA",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "SEA",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "PHX",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "MCO",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "IAD",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "ATL",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "LAS",
+    "airline": "19977",
+    "destination": "DEN",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "DFW",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "MSN",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "SNA",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "HNL",
+    "cost": 1
+  },
+  {
+    "origin": "EWR",
+    "airline": "19977",
+    "destination": "HNL",
+    "cost": 1
+  },
+  {
+    "origin": "LAX",
+    "airline": "19977",
+    "destination": "LAS",
+    "cost": 1
+  },
+  {
+    "origin": "MOB",
+    "airline": "20304",
+    "destination": "ATL",
+    "cost": 1
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "CMH",
+    "cost": 1
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "SJC",
+    "cost": 1
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "PHX",
+    "cost": 1
+  },
+  {
+    "origin": "SEA",
+    "airline": "20304",
+    "destination": "PHX",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "LGA",
+    "cost": 1
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "LGA",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "ROC",
+    "cost": 1
+  },
+  {
+    "origin": "MIA",
+    "airline": "20304",
+    "destination": "PBI",
+    "cost": 1
+  },
+  {
+    "origin": "IAD",
+    "airline": "19977",
+    "destination": "TPA",
+    "cost": 1
+  },
+  {
+    "origin": "SFO",
+    "airline": "19977",
+    "destination": "PSP",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "RSW",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "BDL",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "ORF",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "20304",
+    "destination": "ORF",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "BWI",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "BWI",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "20304",
+    "destination": "AUS",
+    "cost": 1
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "MEM",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "19977",
+    "destination": "MFE",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "OMA",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "19977",
+    "destination": "MSY",
+    "cost": 1
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "BZN",
+    "cost": 1
+  },
+  {
+    "origin": "DEN",
+    "airline": "19977",
+    "destination": "OKC",
+    "cost": 1
+  },
+  {
+    "origin": "IAH",
+    "airline": "20304",
+    "destination": "TUL",
+    "cost": 1
+  },
+  {
+    "origin": "ORD",
+    "airline": "20304",
+    "destination": "SGF",
+    "cost": 1
+  },
+  {
+    "origin": "SFO",
+    "airline": "20304",
+    "destination": "RNO",
+    "cost": 1
+  }
+]
