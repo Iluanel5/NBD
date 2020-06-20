@@ -1,0 +1,51 @@
+Zapytania 1:
+a)
+curl -XPUT -i -H "Content-Type: application/json" -d '{"flavour": "mint", "capacity": 1, "capacityUnit": "L", "isSherbet": false }' http://localhost:8098/buckets/s21454/keys/mint 
+b)
+curl -XPUT -i -H "Content-Type: application/json" -d '{"flavour": "vanilla", "capacity": 2, "capacityUnit": "L", "isSherbet": false }' http://localhost:8098/buckets/s21454/keys/vanilla 
+c)
+curl -XPUT -i -H "Content-Type: application/json" -d '{"flavour": "strawberry", "capacity": 1, "capacityUnit": "L", "isSherbet": true }' http://localhost:8098/buckets/s21454/keys/strawberry 
+d)
+curl -XPUT -i -H "Content-Type: application/json" -d '{"flavour": "mango", "capacity": 2, "capacityUnit": "L", "isSherbet": true }' http://localhost:8098/buckets/s21454/keys/mango 
+e)
+curl -XPUT -i -H "Content-Type: application/json" -d '{"flavour": "lemon", "capacity": 1, "capacityUnit": "L", "isSherbet": true }' http://localhost:8098/buckets/s21454/keys/lemon 
+
+Zapytanie 2:
+curl -i http://localhost:8098/buckets/s21454/keys/strawberry
+
+Zapytanie 3:
+curl -XPUT -i -H "Content-Type: application/json" -d '{"flavour": "vanilla", "capacity": 2, "capacityUnit": "L", "isSherbet": false, "isAvailable": true }' http://localhost:8098/buckets/s21454/keys/vanilla 
+
+Zapytanie 4:
+curl -XPUT -i -H "Content-Type: application/json" -d '{"flavour": "mango", "capacity": 2, "isSherbet": true }' http://localhost:8098/buckets/s21454/keys/mango 
+
+Zapytanie 5:
+curl -XPUT -i -H "Content-Type: application/json" -d '{"flavour": "lemon", "capacity": 5, "capacityUnit": "L", "isSherbet": true }' http://localhost:8098/buckets/s21454/keys/lemon
+
+Zapytanie 6:
+curl -XDELETE -i http://localhost:8098/buckets/s21454/keys/vanilla 
+
+Zapytanie 7:
+curl -i http://localhost:8098/buckets/s21454/keys/vanilla
+
+Zapytanie 8:
+curl -i -H "Content-Type: application/json" -d '{"flavour": "watermelon" }' http://localhost:8098/buckets/s21454/keys 
+
+Zapytanie 9:
+a)
+curl -i http://localhost:8098/buckets/s21454/keys?keys=true
+b)
+curl -i http://localhost:8098/buckets/s21454/keys/J4bOi0hS4witxdI8bE2oZ7KVERb
+
+Zapytanie 10:
+curl -XDELETE -i http://localhost:8098/buckets/s21454/keys/J4bOi0hS4witxdI8bE2oZ7KVERb
+
+
+
+
+
+
+
+
+
+
