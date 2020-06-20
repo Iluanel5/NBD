@@ -1,0 +1,3 @@
+val: and_that_is_value
+val: diffrent_value!
+val: there is no value
